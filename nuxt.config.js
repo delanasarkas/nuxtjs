@@ -40,6 +40,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // .ENV
+    '@nuxtjs/dotenv'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -61,6 +63,7 @@ export default {
 
   // server custom
   server: {
-    port: 8000 // bawaan: 3000
+    port: process.env.PORT, // bawaan: 3000
+    host: process.env.HOST // default: localhost
   }
 }

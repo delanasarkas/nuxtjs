@@ -11,6 +11,7 @@
   "dependencies": {
     "@nuxt/content": "^1.11.1",
     "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.8.3",
     "hideshowpassword": "^2.2.0",
